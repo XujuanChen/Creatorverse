@@ -2,21 +2,24 @@ import React, { useState } from 'react';
 import './AddCreator.css';
 import supabase from '../config/supabseClient';
 import { useNavigate, Link } from "react-router-dom"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTwitter, faYoutube, faGithub, } from '@fortawesome/free-brands-svg-icons'
+import { faPencil, faCircleInfo, faGlobe, faLink } from '@fortawesome/free-solid-svg-icons'
 
 const AddCreator = () => {
   const navigate = useNavigate();
-  const [creator, setCreator] = useState({name: "", url: "", description: "", imageURL: "" });
+  const [creator, setCreator] = useState({name: "", url: "", youtube: "", github: "", description: "", imageURL: "" });
   const [formError, setFormError] = useState(null);
 
   const createCreator = async(e) => {
     e.preventDefault();
-    if (!creator.name || !creator.url || !creator.description || !creator.imageURL) {
+    if (!creator.name || !creator.description || !creator.imageURL) {
       setFormError('Please fill in all the fields correctly.')
       return
     }
 
     await supabase.from('creator')
-    .insert({name: creator.name, url: creator.url, description: creator.description, imageURL: creator.imageURL})
+    .insert({name: creator.name, url: creator.url, youtube: creator.youtube, github: creator.github, description: creator.description, imageURL: creator.imageURL})
     .select()
 
     alert("Success! You added a creator!")
@@ -41,17 +44,35 @@ const AddCreator = () => {
             <input type="text" className="form-control" id="name" name="name" placeholder="Enter fullname" onChange={handleChange} />
           </div>
           <div class="form-group">
-            <label for="url">Website</label>
-            <input type="text" className="form-control" id="url" name="url" placeholder="Enter website" onChange={handleChange} />
-          </div>
-          <div class="form-group">
             <label for="imageURL"> Image URL </label>
             <input type="text" className="form-control" id="imageURL" name="imageURL" placeholder="Enter image url" onChange={handleChange} />
+          </div>
+          <div class="form-group">
+            <label for="youtube">
+              <FontAwesomeIcon icon={faYoutube}  />
+              &nbsp;&nbsp; YouTube
+            </label>
+            <input type="text" className="form-control" id="youtube" name="youtube" placeholder="Enter YouTube" onChange={handleChange} />
+          </div>
+          <div class="form-group">
+            <label for="github" > 
+              <FontAwesomeIcon icon={faGithub} /> 
+              &nbsp;&nbsp; GitHub
+            </label>
+            <input type="text" className="form-control" id="github" name="github" placeholder="Enter GitHub" onChange={handleChange} />
+          </div>
+          <div class="form-group">
+            <label for="url"> 
+              <FontAwesomeIcon icon={faLink} /> 
+              &nbsp;&nbsp; Website
+            </label>
+            <input type="text" className="form-control" id="url" name="url" placeholder="Enter website" onChange={handleChange} />
           </div>
           <div class="form-group">
             <label for="description">Description</label>
             <textarea type="text" rows={5} className="form-control" id="description" name="description" placeholder="Enter Description" onChange={handleChange} />
           </div>
+
           <br />
           <br />
           <div className='grid'>
