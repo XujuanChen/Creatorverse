@@ -39,37 +39,37 @@ const AddCreator = () => {
       <h2 className='title-center'>Add a Creator</h2>
       <div className='form-container'>
         <form onSubmit={createCreator}>
-        <div class="form-group">
-            <label for="name">Fullname</label>
+        <div className="form-group">
+            <label htmlFor="name">Fullname</label>
             <input type="text" className="form-control" id="name" name="name" placeholder="Enter fullname" onChange={handleChange} />
           </div>
-          <div class="form-group">
-            <label for="imageURL"> Image URL </label>
+          <div className="form-group">
+            <label htmlFor="imageURL"> Image URL </label>
             <input type="text" className="form-control" id="imageURL" name="imageURL" placeholder="Enter image url" onChange={handleChange} />
           </div>
-          <div class="form-group">
-            <label for="youtube">
+          <div className="form-group">
+            <label htmlFor="youtube">
               <FontAwesomeIcon icon={faYoutube}  />
               &nbsp;&nbsp; YouTube
             </label>
             <input type="text" className="form-control" id="youtube" name="youtube" placeholder="Enter YouTube" onChange={handleChange} />
           </div>
-          <div class="form-group">
-            <label for="github" > 
+          <div className="form-group">
+            <label htmlFor="github" > 
               <FontAwesomeIcon icon={faGithub} /> 
               &nbsp;&nbsp; GitHub
             </label>
             <input type="text" className="form-control" id="github" name="github" placeholder="Enter GitHub" onChange={handleChange} />
           </div>
-          <div class="form-group">
-            <label for="url"> 
+          <div className="form-group">
+            <label htmlFor="url"> 
               <FontAwesomeIcon icon={faLink} /> 
               &nbsp;&nbsp; Website
             </label>
             <input type="text" className="form-control" id="url" name="url" placeholder="Enter website" onChange={handleChange} />
           </div>
-          <div class="form-group">
-            <label for="description">Description</label>
+          <div className="form-group">
+            <label htmlFor="description">Description</label>
             <textarea type="text" rows={5} className="form-control" id="description" name="description" placeholder="Enter Description" onChange={handleChange} />
           </div>
 

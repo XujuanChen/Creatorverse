@@ -1,0 +1,72 @@
+
+Maximilian Schwarzmüller
+
+https://avatars.githubusercontent.com/u/28806196?v=4
+https://github.com/maxschwarzmueller
+https://www.youtube.com/c/academind
+https://academind.com/
+
+As a self-taught professional I really know the hard parts and the difficult topics when learning new or improving on already-known languages. This background and experience enables me to focus on the most relevant key concepts and topics. My track record of many 5-star rated courses and more than 2,000,000 students on Udemy is the best proof for that.
+Whether working as development instructor or teaching Business Administration I always received great feedback. The most rewarding experience is to see how people find new, better jobs, build awesome web applications, acquire amazing projects or simply enjoy their hobby with the help of my content.
+Together with Manuel Lorenz, I founded Academind to offer the best possible learning experience to our more than 2,000,000 students.
+
+
+
+
+Simo Edwin
+https://github.com/developedbyed
+https://www.youtube.com/@developedbyed
+https://developedbyed.com/
+
+https://pbs.twimg.com/media/FwAocV9XsAE5Px4?format=jpg&name=large
+
+Hello my gorgeous friends on the internet, welcome to DevelopedByEd, your go-to channel for learning how to code, design, and become more creative in the tech world!
+I’m Ed, a self-taught full stack engineer and designer from Romania, and I've been teaching code since 2018. I make learning fun and simple, covering topics such as web development, web design, UI/UX, game development, tech-related news, 3D modelling, and more!
+Whether you're a beginner or an experienced developer, I have coding courses and tutorials suitable for any level. I specialize in front-end, full-stack, and design, and I'm dedicated to sharing my knowledge and expertise with you! 
+And the best part? You can use any of the amazing projects you see in my tutorials or courses in your portfolios!
+So, if you want to kickstart your tech career, head over to https://developedbyed.com and find affordable courses that will take you to the next level! 💻
+
+
+
+Shaun Pelling
+https://avatars.githubusercontent.com/u/9838872?v=4
+https://www.youtube.com/TheNetNinja
+https://github.com/iamshaunjp
+
+Hey gang, my name's Shaun and since a young age I've had an obsession for nearly anything tech-related. I've been coding since about the age of 15 (half of my life, now...phew!) and work as a full-stack web developer and online instructor.
+I also run a well-known development tutorial YouTube channel called The Net Ninja with nearly 1 million subscribers. So feel free to browse some of my latest free tutorials on there if you want to check out my teaching style :).
+My specialities mainly gravitate around one central language (and my first love) - JavaScript. I've been programming with it for around 12 years and - as with any long-term relationship - have had the pleasure of seeing it's ugly side as well as it's beautiful side. So I know the pitfalls to avoid when using it, and pass these on when appropriate in my tutorials.
+As well as teaching, I've also helped to create many very popular, UK-based eCommerce websites, as well as a large amount of smaller, independent websites as well.
+Other languages & technologies I use and teach are - Node.js, Vue, React, Python, Ruby, PHP, HTML & CSS.
+
+
+Colt Steele
+https://avatars.githubusercontent.com/u/5498438?v=4
+https://www.youtube.com/channel/UCrqAGUPPMOdo0jfQ6grikZw
+https://github.com/Colt
+
+Hi! I'm Colt. I'm a developer with a serious love for teaching. I've spent the last few years teaching people to program at 2 different immersive bootcamps where I've helped hundreds of people become web developers and change their lives. My graduates work at companies like Google, Salesforce, and Square.
+Most recently, I led Galvanize's SF's 6 month immersive program as Lead Instructor and Curriculum Director. After graduating from my class, 94% of my students went on to receive full-time developer roles. I also worked at Udacity as a Senior Course Developer on the web development team where I got to reach thousands of students daily.
+I’ve since focused my time on bringing my classroom teaching experience to an online environment. In 2016 I launched my Web Developer Bootcamp course, which has since gone on to become one of the best selling and top rated courses on Udemy. I was also voted Udemy’s Best New Instructor of 2016.
+I've spent years figuring out the "formula" to teaching technical skills in a classroom environment, and I'm really excited to finally share my expertise with you. I can confidently say that my online courses are without a doubt the most comprehensive ones on the market.
+
+
+John Smilga
+https://avatars.githubusercontent.com/u/42133389?v=4
+https://www.youtube.com/c/CodingAddict
+https://github.com/john-smilga
+https://johnsmilga.com/
+
+Hello, I am John Smilga and I am a web developer. I live and work in Sarasota, FL. I spend most of my day, experimenting with HTML, CSS and Javascript (and it's endless list of frameworks). I enjoy coding and the challenge of learning something new everyday. You can also find me at youtube channel Coding Addict.
+
+
+
+Adrian Hajdin
+https://avatars.githubusercontent.com/u/24898559?v=4
+https://www.youtube.com/@javascriptmastery
+https://github.com/adrianhajdin
+https://www.jsmastery.pro
+
+Adrian is a Software Engineer specializing in technical education with a passion for sharing knowledge. He educates hundreds of thousands of people worldwide. His unique teaching approach focuses solely on hands-on learning by building real industry projects, all of which he entirely open-sourced on GitHub. Adrian encourages his followers to do the same on his JavaScript Mastery YouTube channel. He’s well versed in most web technologies but actively works in JavaScript, the MERN stack and is just stepping foot in the world of Web 3.0.
+
+

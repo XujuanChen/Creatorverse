@@ -29,7 +29,6 @@ const ViewCreator = () => {
     fetchCreators();
   },[])
 
-
   return (
     <div className='bg-black' >
         <div className='hero'>
@@ -45,12 +44,11 @@ const ViewCreator = () => {
             </Link>
           </div>
         </div>
-
         <div className='px-5 mx-5 mb-5 pb-5' id='showAll'>
         <Row xs={1} md={2} className="g-4">
           {
             creator && creator.length>0 ?
-            creator.map(c=> (
+            creator.map(c => (
             <Col key={c.id}>
               <article className='card-container' 
               style={{
@@ -60,7 +58,6 @@ const ViewCreator = () => {
                   backgroundRepeat: 'no-repeat'
                 }}>
                 <h4 className='transparent blue'> {c.name} </h4>
-
                 <div className='inline-icons'>
                   <h4 className='transparent'>
                     {c.youtube ? 
@@ -79,13 +76,15 @@ const ViewCreator = () => {
                       </a>: ''}
                   </h4>
                   <h4 className='transparent'>
-                    <FontAwesomeIcon icon={faCircleInfo} className='icon-space'/>
-                    <FontAwesomeIcon icon={faPencil} className='icon-space'/>
+                    <Link to={'/show/'+ c.id}>
+                      <FontAwesomeIcon icon={faCircleInfo} className='icon-space'/>
+                    </Link>
+                    <Link to={'/edit/' + c.id}>
+                      <FontAwesomeIcon icon={faPencil} className='icon-space'/>
+                    </Link>
                   </h4>
                 </div>
-
                 <p className='transparent'> {c.description.substring(0, 200)}... </p>
-
               </article>
             </Col>
             )

@@ -1,0 +1,10 @@
+.center-container {
+    width: 50vw;
+    height: 75vh;
+    text-align: center;
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    padding-top: 6%;
+}
